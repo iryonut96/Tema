@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-color:#0ebec6;
   background-size: 562px 315px;
-  background-position:center;
+  background-position:center bottom;
   text-align:center;
   color: #fff;
 }
@@ -21,20 +21,26 @@
   opacity: .75;
   font-size: 12px;
   letter-spacing: .5px;
-  text-transform: uppercase;
+  margin-top: 50px;
 }
 
 .banner .title2 {
-  display: block;
-  font-size: 1.5em;
+
+  font-size: 2em;
   -webkit-margin-before: 0.83em;
   -webkit-margin-after: 0.83em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   font-weight: bold;
+  width: 500px;
+  text-align: center;
 }
 
 body {
-  font-family: "Aktiv Grotesk",Helvetica,Arial,sans-serif;
-  font-size: 14px;
+  margin: 0;
+    font-family: "Aktiv Grotesk",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+
 }
