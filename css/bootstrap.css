@@ -1097,15 +1097,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #999999;
+  color: #9ca4ac;
   text-decoration: none;
-  font-family: "Aktiv Grotesk",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 1.42857;
 }
 a:hover,
 a:focus {
-  color: #23527c;
   text-decoration: underline;
 }
 a:focus {
@@ -1614,6 +1612,7 @@ pre code {
 .row {
   margin-right: -15px;
   margin-left: -15px;
+  margin-top: 30px;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
@@ -3974,6 +3973,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+
 }
 .nav > li {
   position: relative;
@@ -3987,7 +3987,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #ffffff;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4027,7 +4027,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 1.42857143;
   border: 1px solid transparent;
   border-radius: 2px 2px 0 0;
-  margin-top: 2px;
+  margin-top: 5px;
+  font-size: 15px;
+  border: 0;
+  padding: 20px 25px 20px 25px;
+  -webkit-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
 }
 .nav-tabs > li > a:hover {
   border-color: #eee #eee #ddd;
@@ -4038,9 +4044,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #555;
   cursor: default;
   background-color: #fff;
-  border: 1px solid #ddd;
   border-bottom-color: transparent;
-  font-size:15px;
+  font-size: 15px;
 }
 .nav-tabs.nav-justified {
   width: 100%;
