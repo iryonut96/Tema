@@ -232,7 +232,57 @@
   margin: 0 0 10px;
   line-height: 29px;
 }
+
 /* End Blog Ccontent CSS */
+
+/* Start Footer */
+
+.hs-footer {
+  padding: 1em 0!important;
+  width: 100%;
+  border: 0;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: content-box;
+  display: block;
+  height: 0;
+  margin: 20px 0;
+}
+.hs-footer h1 {
+  color: #4f5d6b;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-weight:500;
+  font-size: 13px;
+  margin-bottom: 16px!important;
+  margin-top: 0!important;
+  text-transform: uppercase!important;
+}
+.hs-footer h2,
+.hs-footer ul,
+.hs-footer li {
+  color: #93a1af;
+  font-size: 12px;
+  list-style-type: none;
+  align: left;
+  margin-left: -20px;
+  margin-bottom: 5px;
+}
+.hs-footer h2:hover{
+  color: #394956;
+}
+
+.hs-footer .col-sm-2,
+.hs-footer .col-md-6,
+.hs-footer .col-lg-3 {
+  float: right;
+  display: inline-block;
+  text-align: right;
+}
+.col-sm-2 , col-md-6 , col-lg-3 > p {
+  font-size: 13px;
+  color: #72808e;
+}
+/* End Footer */
 
 body {
   margin: 0;
