@@ -3982,7 +3982,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  font-size: 15px;
+  padding: 10px 18px;
+  -webkit-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -4238,14 +4242,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
+  margin-top: 15px;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
   }
 }
 .navbar-static-top {
@@ -4285,6 +4292,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  margin-right: 30px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4335,6 +4343,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  margin-top: 15px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4368,8 +4377,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
 }
 .navbar-form {
@@ -4445,9 +4454,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-form {
     width: auto;
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 0px;
     margin-right: 0;
     margin-left: 0;
+    margin-top: 15px;
     border: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -4513,7 +4523,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #93a1af;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
