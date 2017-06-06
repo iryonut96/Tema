@@ -166,7 +166,7 @@
 }
 
 .second,.box>p,ul,li {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 29px;
   color: #222;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -213,6 +213,14 @@
   letter-spacing: .2px;
   -webkit-font-smoothing: auto;
   margin-bottom: 24px!important;
+}
+.blog-post h3 {
+  font-size: 23px;
+  line-height: 31px;
+  font-weight: 600;
+  margin: 2em 0 1em;
+  letter-spacing: .2px;
+  margin-bottom: 20px;
 }
 .box strong {
   font-size: 19px;
