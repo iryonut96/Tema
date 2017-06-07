@@ -4038,6 +4038,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   -webkit-transition: all .15s ease-in-out;
   -o-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .nav-tabs > li > a:hover {
   border-color: #eee #eee #ddd;
@@ -4344,6 +4345,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
   margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -6124,7 +6126,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
@@ -6393,7 +6395,7 @@ button.close {
 .carousel-control .icon-next {
   width: 20px;
   height: 20px;
-  font-family: serif;
+  font-family: sans-serif;
   line-height: 1;
 }
 .carousel-control .icon-prev:before {
